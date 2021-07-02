@@ -1,153 +1,44 @@
-<p align="center"><a href="https://flazhost.com" target="_blank"><img src="https://i.postimg.cc/yxCQHLcT/covid-TRACKER-svg.png" width="600"></a></p>
+<p align="center"><a href="https://flazhost.com" target="_blank"><img src="https://i.postimg.cc/wxLmJT9G/logo-agraria-2.png" width="600"></a></p>
 
-# covidTRACKER
+# AgraRia
 
-covidTRACKER is a Mobile Application to help organization or governement to track user who has been sentenced as Negative or Positive pasient. This will help you to track acitivy after being sentenced. This Idea comes from assignment on Udacoding Academy [UdaCoding.Com](https://udacoding.com) Special thank to Uda Rizki who guided me to **coding hard**.
+AgraRia is a Mobile Application to help user to get information about Agraria.
 
-## Features:
+### Features:
 
-- Status Record
-- Story to Write Your Opinion
+- Slideshow
+- News
 - Written on Laravel as Backend
 - Written on Dart Flutter as Mobile Application
-
----
-
-# Steps of Installation
-
-### Create Database
-
-`create database covid;`
-
-### Change Database Configuration on .env
-
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=covid
-DB_USERNAME=root
-DB_PASSWORD=admin
-```
-
-### Run Laravel
-
-```
-php artisan serve --host 192.168.1.7 --port 8000
-```
-
-### Install covidTRACKER by Access URL:
-
-```
-http://192.168.1.7:8000/install
-```
-
-
-<img src="https://i.postimg.cc/d3PmzDrk/installation.png" height="400" />
-
-### Connect Mobile Application to Back End Server
-
-<img src="https://i.postimg.cc/D0rdFFPC/connection.png" height="1000" />
-
-### Login Using email and Passwod
-
-```
-Email    : admin@admin.com
-Password : 12345678
-```
-
-# # Back End Features
-
-#### User
-
-1. Registration
-
-2. Login
-
-3. Logout
-
-#### Story
-
-1. Create Story
-
-2. List Story
-
-#### Status
-
-1. Create Status
-
-2. List Status
-
-#### Indonesian Region
-
-1. Province
-
-2. Regency
-
-3. District
-
-4. Villlage
-
-## Backend Technology
-
-1. Laravel 8
-
-2. Eloquent
-
-3. Collection
-
-4. Resource
-
-5. Passport
 
 ## Android Screen
 
 Home Screen
 
-<img src="https://i.postimg.cc/09hnmGCz/home1.jpg" height="1000" />
+<img src="https://i.postimg.cc/2znRPs8f/Screenshot-1625205469.png" height="1000" />
 
 
-<img src="https://i.postimg.cc/gzWKtYQd/home2.jpg" height="1000"/>
+<img src="https://i.postimg.cc/RS959gNJ/Screenshot-1625205482.png" height="1000"/>
 
 Story Screen
 
-<img src="https://i.postimg.cc/NgT4xyNp/story.jpg" height="1000" />
+<img src="https://i.postimg.cc/CwBV4Z35/Screenshot-1625205494.png" height="1000" />
 
 Graph Screen
 
-<img src="https://i.postimg.cc/pRGqVMhY/graph.jpg" height="1000" />
+<img src="https://i.postimg.cc/fDgNX7g1/Screenshot-1625205504.png" height="1000" />
 
 Status Screen
 
-<img src="https://i.postimg.cc/NskkW3vX/status.jpg" height="1000" />
+<img src="https://i.postimg.cc/KFfFch7G/Screenshot-1625205511.png" height="1000" />
 
-Account Screen
 
-<img src="https://i.postimg.cc/z8Xx1GBG/account.jpg" height="1000" />
-
-Register Screen
-
-<img src="https://i.postimg.cc/WpsXz2wS/register.jpg" height="1000" />
-
-Login Screen
-
-<img src="https://i.postimg.cc/b8RmMtq5/login.jpg" height="1000" />
-
-Profile Screen
-
-<img src="https://i.postimg.cc/ZJWjCs6k/profile.jpg" height="1000" />
-
-## Flutter Technology
+### Flutter Technology
 
 1. Flutter 2
-
 2. Provider
-
-3. Flutter Chart
-
-4. Google Font
-
-5. Form Validation from Rest API
+3. Google Font
+4. Form Validation from Rest API
 
 ## License
 
